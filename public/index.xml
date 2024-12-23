@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Site for lab2 with HUGO</title>
+    <link>/</link>
+    <description>Recent content on My Site for lab2 with HUGO</description>
+    <generator>Hugo</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Mon, 23 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/my-first-post/</guid>
+      <description>&lt;h1 id=&#34;first-post&#34;&gt;First post&lt;/h1&gt;&#xA;&lt;p&gt;This is the content of the first post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Fourth Post</title>
+      <link>/posts/my-fourth-post/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/my-fourth-post/</guid>
+      <description>&lt;h1 id=&#34;fourth-post&#34;&gt;Fourth post&lt;/h1&gt;&#xA;&lt;p&gt;This is the content of the fourth post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Second Post</title>
+      <link>/posts/my-second-post/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/my-second-post/</guid>
+      <description>&lt;h1 id=&#34;second-post&#34;&gt;Second post&lt;/h1&gt;&#xA;&lt;p&gt;This is the content of the second post.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Third Post</title>
+      <link>/posts/my-third-post/</link>
+      <pubDate>Mon, 23 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>/posts/my-third-post/</guid>
+      <description>&lt;h1 id=&#34;third-post&#34;&gt;Third post&lt;/h1&gt;&#xA;&lt;p&gt;This is the content of the third post.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -52,7 +52,6 @@
    {{ define "main" }}
        <section class="content">
            <div class="container">
-           <h2>Latest Posts</h2>
            <div class="posts">
                {{ range first 10 .Site.RegularPages }}
                <a href="{{ .Permalink }}" class="read-more">

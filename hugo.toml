@@ -1,5 +1,5 @@
 languageCode = 'ru-ru'
-title = 'My Site for lab2'
+title = 'My Site for lab2 with HUGO'
 description = 'Static site based on Hugo'
 author = "Victor Zablockii"
 theme = 'my-theme'
