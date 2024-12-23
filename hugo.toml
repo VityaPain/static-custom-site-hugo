@@ -1,0 +1,12 @@
+languageCode = 'ru-ru'
+title = 'My Site for lab2'
+description = 'Static site based on Hugo'
+author = "Victor Zablockii"
+theme = 'my-theme'
+
+[params]
+    description = 'Description'
+    author = 'Victor Zablockii'
+
+[permalinks]
+  posts = "/posts/:slug/"

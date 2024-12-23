@@ -1,0 +1,40 @@
+name: Build and Deploy Hugo Site
+
+on:
+  push:
+    branches:
+      - main
+    pull_request:
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '20' 
+
+    - name: Install Node.js dependencies
+      run: npm ci
+
+    - name: Build CSS with PostCSS
+      run: npm run build:css
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+        hugo-version: "latest"
+        extended: true
+    
+    - name: Build the site
+      run: hugo --minify
+    
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
+      with:
+        github_token: ${{ secrets.HUGO_DEPLOY }}
+        publish_dir: ./public

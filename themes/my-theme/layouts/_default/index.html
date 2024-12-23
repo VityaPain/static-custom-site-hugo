@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="content">
+  <div class="container">
+    <h2>Latest Posts</h2>
+    <div class="posts">
+      {{ range first 10 .Site.RegularPages }}
+      <a href="{{ .Permalink }}" class="read-more">
+        <div class="post-preview">
+          <p>{{ .Summary }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
